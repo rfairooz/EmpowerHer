@@ -1,6 +1,10 @@
 import React from "react";
+import Image from "next/image";
+import homeBack from "../public/pictures/background.png";
+
 const index = () => {
-  return <div className="text-4xl bg-red-500">Hello world</div>;
+  return <div> <Image src={homeBack} alt="" placeholder="blur" quality={100} /></div>;
+  
 };
 
 
